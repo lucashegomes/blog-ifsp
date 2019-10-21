@@ -1,19 +1,16 @@
-# BlogCafÃ© â˜•ï¸
+# Blog - IFSP
 
-BlogCafÃ© is a simple Single Page Blog Application built with Laravel and VueJS.
+Blog IFSP é uma simples aplicação web desenvolvida com Laravel e VueJS para expor as habilidades adquiridas em aula.
 
-`BlogCafÃ©` allows users create accounts, create blog posts with multiple images upload feature, view all blog posts and view a single blog post content.
-
-`BlogCafÃ©` is a end product of a [blog tutorial](https://medium.com/@martinsOnuoha/building-a-simple-blog-with-multiple-image-upload-in-laravel-vue-5517de920796) I wrote detailing how to build and implement a blog system with multiple image upload using a frontend SPA and Laravel.
+`Blog IFSP` permite a criação de contas, posts com múltiplas imagens, visualizar e editar seus conteúdos.
 
 ## Features
 
-> - Multiple Image upload
-> - Create Blog Post
-> - View Blog Post
-> - Create Account
+> - Upload de múltiplas imagens
+> - Criaçãoo, edição e remoção de posts
+> - Exibição com scroll infinito de posts
+> - Criação de login
 > - Login
->
 
 ## Preview
 
