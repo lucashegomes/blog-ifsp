@@ -23,7 +23,7 @@
         <p>{{ currentPost.body }}</p>
       </span>
       <span slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="postDialogVisible = false">Okay</el-button>
+        <el-button type="primary" @click="postDialogVisible = false">Fechar</el-button>
       </span>
     </el-dialog>
   </div>

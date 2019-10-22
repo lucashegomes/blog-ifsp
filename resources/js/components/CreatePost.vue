@@ -1,17 +1,17 @@
 <template>
   <div class="card mt-4">
-      <div class="card-header">New Post</div>
+      <div class="card-header">Novo Post</div>
       <div class="card-body">
         <div v-if=status_msg :class="{'alert-success': status, 'alert-danger': !status }" class="alert" role="alert">
           {{ status_msg }}
         </div>
         <form>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Title</label>
+            <label for="exampleFormControlInput1">Título</label>
             <input v-model="title" type="text" class="form-control" id="title" placeholder="Post Title" required>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Post Content</label>
+            <label for="exampleFormControlTextarea1">Conteúdo</label>
             <textarea v-model="body" class="form-control" id="post-content" rows="3" required></textarea>
           </div>
           <div class="">
@@ -31,7 +31,7 @@
       </div>
       <div class="card-footer">
         <button type="button" @click="createPost" class="btn btn-success">
-          {{ isCreatingPost ? 'Posting...' : 'Create Post' }}
+          {{ isCreatingPost ? 'Criando post...' : 'Criar' }}
         </button>
       </div>
   </div>
