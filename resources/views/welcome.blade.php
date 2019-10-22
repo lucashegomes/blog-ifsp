@@ -70,20 +70,20 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}">Entrar</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}">Cadastrar</a>
                         @endif
                     @endauth
                 </div>
             @endif
 
-            <div class="content">
+            <!-- <div class="content"> -->
+            <div class="card">
                 @foreach ($posts as $post)
-                    {{$post->id}}
-                    {{$post->title}}
-                    {{$post->body}}
+                    <h1 class="card_title">{{$post->title}}</h1>
+                    <p>{{$post->body}}</p>
                 @endforeach
             </div>
         </div>
